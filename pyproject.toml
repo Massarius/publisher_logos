@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "publisher-logos"
+version = "0.1.0"
+description = ""
+authors = ["Jan Mulder <jan.mulder@massarius.com>"]
+readme = "README.md"
+packages = [{include = "publisher_logos"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+numpy = "^1.25.1"
+matplotlib = "^3.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
